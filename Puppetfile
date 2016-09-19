@@ -8,7 +8,6 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/mongodb', '0.14.0'
 
-
 # A module from the Puppet Forge
 # mod 'puppetlabs-stdlib'
 
