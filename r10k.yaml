@@ -1,0 +1,10 @@
+# The location to use for storing cached Git repos
+:cachedir: '/var/cache/r10k'
+
+# A list of git repositories to create
+:sources:
+ #This will clone the git repository and instantiate an environment per
+ # branch in the /etc/puppetlabs/code/environments
+ :puppetmaster:
+  remote: 'https://github.com/ruben-nieva/r10k-demo.git' 
+  basedir: '/etc/puppetlabs/code/environments'
