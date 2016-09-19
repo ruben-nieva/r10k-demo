@@ -10,6 +10,10 @@ mod 'tylerwalts/jdk_oracle'
 mod 'elasticsearch/elasticsearch'
 mod 'puppetlabs/mongodb', '0.14.0'
 
+# Graylog Modules
+mod'ruben-nieva/graylog-natgeo',
+:git => 'https://github.com/ruben-nieva/graylog-natgeo'
+
 # A module from the Puppet Forge
 # mod 'puppetlabs-stdlib'
 
