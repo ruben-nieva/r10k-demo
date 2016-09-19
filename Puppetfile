@@ -6,6 +6,7 @@
 mod 'puppetlabs/apt'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/stdlib'
+mod 'richardc/datacat'
 mod 'tylerwalts/jdk_oracle'
 mod 'elasticsearch/elasticsearch'
 mod 'puppetlabs/mongodb', '0.14.0'
