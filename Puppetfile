@@ -14,7 +14,7 @@ mod 'puppetlabs/mongodb'
 mod 'graylog/graylog'
 
 # Graylog Modules
-mod'graylog',
+mod 'graylog',
 :git => 'https://github.com/ruben-nieva/graylog-natgeo'
 
 # A module from the Puppet Forge
