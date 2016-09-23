@@ -11,10 +11,10 @@ mod 'ceritsc/yum'
 mod 'tylerwalts/jdk_oracle'
 mod 'elasticsearch/elasticsearch'
 mod 'puppetlabs/mongodb'
-mod 'graylog/graylog'
+#mod 'graylog/graylog'
 
 # Graylog Modules
-mod 'graylog',
+mod 'graylog_natgeo',
 :git => 'https://github.com/ruben-nieva/graylog-natgeo'
 
 # A module from the Puppet Forge
