@@ -4,14 +4,14 @@
 #forge "https://forgeapi.puppetlabs.com"
 
 mod 'puppetlabs/apt'
-#mod 'puppetlabs/concat'
+mod 'puppetlabs/concat'
 mod 'puppetlabs/stdlib'
 mod 'richardc/datacat'
 mod 'ceritsc/yum'
 mod 'tylerwalts/jdk_oracle'
 mod 'elasticsearch/elasticsearch'
 mod 'puppetlabs/mongodb'
-#mod 'graylog/graylog'
+mod 'graylog/graylog'
 
 # Graylog Modules
 mod 'graylog_natgeo',
