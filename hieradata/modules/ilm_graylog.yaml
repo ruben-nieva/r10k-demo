@@ -1,8 +1,0 @@
-micromanaged:
-  - search1.int.ngeo.com
-  - search2.int.ngeo.com
-
-replset_members:
-    - graylog-mongo01:27017
-    - graylog-mongo02:27017
-    - graylog-mongo03:27017

@@ -1,0 +1,8 @@
+---
+webserver::virtual_host: 'git.infiniteskills.com'
+webserver::web_directory: '/var/www/git'
+
+mongo_replset_members:
+  - graylog-mongo01:27017
+  - graylog-mongo02:27017
+  - graylog-mongo03:27017
