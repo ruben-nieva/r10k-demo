@@ -10,5 +10,6 @@
 
 :hierarchy:
   - "nodes/%{::trusted.certname}"
+  - %{::module_name}
   - "virtual/%{::virtual}"
   - "common"
