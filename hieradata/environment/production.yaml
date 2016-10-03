@@ -2,7 +2,13 @@
 webserver::virtual_host: 'git.infiniteskills.com'
 webserver::web_directory: '/var/www/git'
 
-mongo_replset_members:
+mongo::disable_hugepages: '/etc/init.d/disable-transparent-hugepages'
+mongo::replset_members:
   - graylog-mongo01:27017
   - graylog-mongo02:27017
   - graylog-mongo03:27017
+
+elastic_unicast_hosts:
+  - graylog-elasticsearch01
+  - graylog-elasticsearch02
+  - graylog-elasticsearch03
