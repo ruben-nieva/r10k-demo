@@ -12,3 +12,11 @@ elastic_unicast_hosts:
   - graylog-elasticsearch01
   - graylog-elasticsearch02
   - graylog-elasticsearch03
+
+graylog::elasticsearch_shards: '4'
+graylog::elasticsearch_replicas: '1'
+graylog::mongodb_uri: 'mongodb://graylog-mongo01,graylog-mongo02,graylog-mongo03/graylog2'
+graylog::elasticsearch_hosts:
+  - graylog-elasticsearch01:9300
+  - graylog-elasticsearch02:9300
+  - graylog-elasticsearch03:9300
