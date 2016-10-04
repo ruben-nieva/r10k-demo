@@ -1,6 +1,5 @@
 ---
 
-ilm_mongo::disable_hugepages: '/etc/init.d/disable-transparent-hugepages'
 ilm_mongo::version: '3.0.4'
 ilm_mongo::replset_members:
   - graylog-mongo01:27017
