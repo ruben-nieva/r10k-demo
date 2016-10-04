@@ -15,5 +15,6 @@ ilm_elastic::elastic_hosts:
 
 ilm_graylog::elasticsearch_shards: '4'
 ilm_graylog::elasticsearch_replicas: '1'
+ilm_graylog::version: '2.0.0-5'
 ilm_graylog::mongodb_uri: 'mongodb://graylog-mongo01,graylog-mongo02,graylog-mongo03/graylog2'
 ilm_graylog::elasticsearch_hosts: 'graylog-elasticsearch01:9300, graylog-elasticsearch02:9300, graylog-elasticsearch03:9300'
