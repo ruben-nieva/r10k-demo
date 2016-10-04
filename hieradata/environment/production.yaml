@@ -1,6 +1,7 @@
 ---
 
 ilm_mongo::disable_hugepages: '/etc/init.d/disable-transparent-hugepages'
+ilm_mongo::version: '3.0.4'
 ilm_mongo::replset_members:
   - graylog-mongo01:27017
   - graylog-mongo02:27017
@@ -15,7 +16,4 @@ ilm_elastic::elastic_hosts:
 ilm_graylog::elasticsearch_shards: '4'
 ilm_graylog::elasticsearch_replicas: '1'
 ilm_graylog::mongodb_uri: 'mongodb://graylog-mongo01,graylog-mongo02,graylog-mongo03/graylog2'
-ilm_graylog::elasticsearch_hosts:
-  - graylog-elasticsearch01:9300
-  - graylog-elasticsearch02:9300
-  - graylog-elasticsearch03:9300
+ilm_graylog::elasticsearch_hosts: 'graylog-elasticsearch01:9300, graylog-elasticsearch02:9300, graylog-elasticsearch03:9300'
