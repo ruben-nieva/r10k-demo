@@ -1,22 +1,21 @@
 ---
-webserver::virtual_host: 'git.infiniteskills.com'
-webserver::web_directory: '/var/www/git'
 
-mongo::disable_hugepages: '/etc/init.d/disable-transparent-hugepages'
-mongo::replset_members:
+ilm_mongo::disable_hugepages: '/etc/init.d/disable-transparent-hugepages'
+ilm_mongo::replset_members:
   - graylog-mongo01:27017
   - graylog-mongo02:27017
   - graylog-mongo03:27017
 
-elastic_unicast_hosts:
+ilm_elastic::version: '2.3.5'
+ilm_elastic::elastic_hosts:
   - graylog-elasticsearch01
   - graylog-elasticsearch02
   - graylog-elasticsearch03
 
-graylog::elasticsearch_shards: '4'
-graylog::elasticsearch_replicas: '1'
-graylog::mongodb_uri: 'mongodb://graylog-mongo01,graylog-mongo02,graylog-mongo03/graylog2'
-graylog::elasticsearch_hosts:
+ilm_graylog::elasticsearch_shards: '4'
+ilm_graylog::elasticsearch_replicas: '1'
+ilm_graylog::mongodb_uri: 'mongodb://graylog-mongo01,graylog-mongo02,graylog-mongo03/graylog2'
+ilm_graylog::elasticsearch_hosts:
   - graylog-elasticsearch01:9300
   - graylog-elasticsearch02:9300
   - graylog-elasticsearch03:9300
