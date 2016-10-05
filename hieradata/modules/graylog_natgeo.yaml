@@ -6,15 +6,15 @@ ilm_mongo::replset_members::production:
   - graylog-mongo02:27017
   - graylog-mongo03:27017
 
-ilm_elastic::version::production: '2.3.5'
+ilm_elastic::version::production: '2.4.1'
 ilm_elastic::elastic_hosts::production:
   - graylog-elasticsearch01
   - graylog-elasticsearch02
   - graylog-elasticsearch03
 
 # Tested version 2.0.0-5 - Available version 2.0.0-6, 2.0.1-1, 2.0.2-1 & 2.0.3-1
-ilm_graylog::repo_version::production: '2.0'
-ilm_graylog::version::production: '2.0.3-1'
+ilm_graylog::repo_version::production: '2.1'
+ilm_graylog::version::production: '2.1.1-1'
 ilm_graylog::elasticsearch_shards::production: '4'
 ilm_graylog::elasticsearch_replicas::production: '1'
 ilm_graylog::mongodb_uri::production: 'mongodb://graylog-mongo01,graylog-mongo02,graylog-mongo03/graylog2'
