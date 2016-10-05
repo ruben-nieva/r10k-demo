@@ -10,6 +10,7 @@
 
 :hierarchy:
   - "nodes/%{::trusted.certname}"
-  - %{::module_name}
-  - "virtual/%{::virtual}"
-  - "common"
+  - "projects/%{project}"
+  - "environment/%{environment}"
+  - "modules/%{module_name}"
+  - common
