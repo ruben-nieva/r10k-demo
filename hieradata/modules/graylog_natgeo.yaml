@@ -6,7 +6,7 @@ ilm_mongo::replset_members::production:
   - graylog-mongo02:27017
   - graylog-mongo03:27017
 
-ilm_elastic::version::production: '2.4.1'
+ilm_elastic::version::production: '2.3.5'
 ilm_elastic::elastic_hosts::production:
   - graylog-elasticsearch01
   - graylog-elasticsearch02
