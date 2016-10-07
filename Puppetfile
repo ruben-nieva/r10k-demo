@@ -12,6 +12,7 @@ mod 'tylerwalts/jdk_oracle'
 mod 'elasticsearch/elasticsearch'
 mod 'puppetlabs/mongodb'
 mod 'graylog/graylog'
+mod 'pcfens/filebeat'
 
 # Graylog Modules
 mod 'graylog_natgeo',
