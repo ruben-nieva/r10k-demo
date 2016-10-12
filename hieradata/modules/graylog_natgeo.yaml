@@ -12,23 +12,22 @@ ilm_mongo::replset_members::production:
 #   - graylog-elasticsearch02
 #   - graylog-elasticsearch03
 
-
 ilm_elastic:
-  version:
-    production: '3.0.4'
-    qa: '3.0.4'
-  cluster_name:
-    production: 'ilm-elastic-prod'
-    qa: 'ilm-elastic-qa'
-  elastic_hosts:
-    production:
+  qa:
+    version: '2.4.1'
+    cluster_name: 'ilm-elastic-qa'
+    elastic_hosts:
       - graylog-elasticsearch01
       - graylog-elasticsearch02
       - graylog-elasticsearch03
-    qa:
+  production:
+    version: '2.4.1'
+    cluster_name: 'ilm-elastic-prod'
+    elastic_hosts:
       - graylog-dev-elasticsearch01
       - graylog-dev-elasticsearch02
       - graylog-dev-elasticsearch03
+
 
 # Tested version 2.0.0-5 - Available version 2.0.0-6, 2.0.1-1, 2.0.2-1 & 2.0.3-1
 ilm_graylog::repo_version::production: '2.1'
