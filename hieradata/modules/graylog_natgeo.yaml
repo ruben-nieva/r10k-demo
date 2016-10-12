@@ -20,7 +20,7 @@ ilm_elastic:
   cluster_name:
     production: 'ilm-elastic-prod'
     qa: 'ilm-elastic-qa'
-  replset_members:
+  hosts:
     production:
       - graylog-elasticsearch01
       - graylog-elasticsearch02
