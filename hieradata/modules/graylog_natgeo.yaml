@@ -30,6 +30,7 @@ ilm_elastic::production:
 
 
 # Tested version 2.0.0-5 - Available version 2.0.0-6, 2.0.1-1, 2.0.2-1 & 2.0.3-1
+ilm_graylog::cluster_name::production: 'ilm-elastic-prod'
 ilm_graylog::repo_version::production: '2.1'
 ilm_graylog::version::production: '2.1.1-1'
 ilm_graylog::elasticsearch_shards::production: '4'
