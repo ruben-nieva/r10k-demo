@@ -13,10 +13,14 @@ mod 'elasticsearch/elasticsearch'
 mod 'puppetlabs/mongodb'
 mod 'graylog/graylog'
 mod 'pcfens/filebeat'
+mod 'fsalum/newrelic'
 
 # Graylog Modules
 mod 'graylog_natgeo',
 :git => 'https://github.com/ruben-nieva/graylog-natgeo'
+
+mod 'ilm_newrelic',
+:git => 'https://github.com/ruben-nieva/ilm_newrelic'
 
 # A module from the Puppet Forge
 # mod 'puppetlabs-stdlib'
