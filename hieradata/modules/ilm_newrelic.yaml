@@ -1,6 +1,6 @@
 ---
 #Production environment
-ilm_newrelic_license::production: ''
+ilm_newrelic_license::production: '921c380d678aff28aa04b39aced6c36665ca523e'
 
 
 #QA environment
