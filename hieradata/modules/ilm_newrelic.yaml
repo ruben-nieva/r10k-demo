@@ -1,0 +1,7 @@
+---
+#Production environment
+ilm_newrelic_license::production: ''
+
+
+#QA environment
+ilm_newrelic_license::qa: ''
