@@ -14,8 +14,8 @@ mod 'puppetlabs/mongodb'
 mod 'graylog/graylog'
 mod 'pcfens/filebeat'
 mod 'fsalum/newrelic'
-mod 'genebean/nxlog'
-#mod 'dschaaff/nxlog'
+#mod 'genebean/nxlog'
+mod 'dschaaff/nxlog'
 
 # Graylog Modules
 mod 'graylog_natgeo',
